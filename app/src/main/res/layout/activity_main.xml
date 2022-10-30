@@ -16,6 +16,20 @@
         android:layout_margin="50dp"
         android:gravity="center"
         tools:ignore="MissingConstraints" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/username"
+        android:layout_below="@id/signin"
+        android:background="#30fffff"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+
+        />
 
 
 
